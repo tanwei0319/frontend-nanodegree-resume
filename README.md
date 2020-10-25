@@ -1,15 +1,8 @@
-## How do I complete this project?
-
-1. Go to the [Javascript Basics course](https://www.udacity.com/course/ud804) and select "View Course Materials."
-2. Go through the videos and assignments in this course to learn the JavaScript necessary to build your resume.
-3. Review your work against the Project Rubric (on the next page).
-4. When you are satisfied with your project, submit it according to the Submission Instructions on the next page.
-
 ### By the end:
-Your resume will look something like this
+Target end product:
 ![](http://i.imgur.com/pWU1Xbl.png)
 
-And your repository will include the following files:
+The repository will include the following files:
 
 * **index.html**: The main HTML document. Contains links to all of the CSS and JS resources needed to render the resume, including resumeBuilder.js.
 * **js/helper.js**: Contains helper code needed to format the resume and build the map. It also has a few function shells for additional functionality. More on helper.js further down.
@@ -20,13 +13,13 @@ And your repository will include the following files:
 The GitHub readme file.
 * and some images in the images directory.
 
-## Your starting point...
+## The starting point...
 ### js/helper.js
 Within helper.js, you’ll find a large collection of strings containing snippets of HTML. Within many snippets, you’ll find placeholder data in the form of `%data%` or `%contact%`.
 
 Each string has a title that describes how it should be used. For instance, `HTMLworkStart` should be the first `<div>` in the Work section of the resume. `HTMLschoolLocation` contains a `%data%` placeholder which should be replaced with the location of one of your schools.
 
-### Your process:
+### The process:
 The resume has four distinct sections: work, education, projects and a header with biographical information. You’ll need to:
 
 1. Build four javaScript objects, each one representing a different resume section. The objects that you create (including property names and the data types of their values) need to follow the schema below exactly. All properties should be included and contain a value of the type specified unless the property is marked 'optional'. Property values may contain real or fake data. Property names are case-sensitive. Make sure your javaScript objects are formatted correctly using [jshint.com](http://jshint.com/) .
